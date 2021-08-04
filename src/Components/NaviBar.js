@@ -11,8 +11,6 @@ import {
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import logo from "../logo.svg";
-import User_Img_User from "../Components/User_Img/User_Img_User.svg";
-import User_Img_Cart from "../Components/User_Img/User_Img_Cart.svg";
 
 const Styles = styled.div`
   a,
@@ -83,7 +81,10 @@ export default function NaviBar() {
                 onClick={() => setToggleUserModal(!toggleUserModal)}>
                 <img
                   alt="User Account"
-                  src={User_Img_User}
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/Images/User_Img/User_Img_User.svg"
+                  }
                   width="30"
                   height="30"
                   className="d-inline-block align-top"
@@ -95,7 +96,10 @@ export default function NaviBar() {
                 onClick={() => setToggleCartModal(!toggleCartModal)}>
                 <img
                   alt="User Cart"
-                  src={User_Img_Cart}
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/Images/User_Img/User_Img_Cart.svg"
+                  }
                   width="30"
                   height="30"
                   className="d-inline-block align-top"

@@ -36,8 +36,13 @@ export const About = () => (
                   </Row>
                   <Row>
                     <Image
-                      src={"./About_Img/history.webp"}
-                      webp={"./About_Img/history.jpg"}
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/Images/About_Img/history.webp"
+                      }
+                      webp={
+                        process.env.PUBLIC_URL + "/Images/About_Img/history.jpg"
+                      }
                       alt="Our History"
                       width="100%"
                       height="50%"
@@ -55,8 +60,12 @@ export const About = () => (
                   </Row>
                   <Row>
                     <Image
-                      src={"./About_Img/brands.webp"}
-                      webp={"./About_Img/brands.jpg"}
+                      src={
+                        process.env.PUBLIC_URL + "/Images/About_Img/brands.webp"
+                      }
+                      webp={
+                        process.env.PUBLIC_URL + "/Images/About_Img/brands.jpg"
+                      }
                       alt="Our Brands"
                       width="100%"
                       height="auto"

@@ -46,8 +46,14 @@ export const Services = () => (
                         <Row xs={1} md={2}>
                           <Col>
                             <Image
-                              src={"./Services_Img/repair.webp"}
-                              webp={"./Services_Img/repair.jpg"}
+                              src={
+                                process.env.PUBLIC_URL +
+                                "/Images/Services_Img/repair.webp"
+                              }
+                              webp={
+                                process.env.PUBLIC_URL +
+                                "/Images/Services_Img/repair.jpg"
+                              }
                               alt="Jewelry Repair"
                               width="100%"
                               height="auto"
@@ -79,8 +85,14 @@ export const Services = () => (
                           </Col>
                           <Col>
                             <Image
-                              src={"./Services_Img/repair.webp"}
-                              webp={"./Services_Img/repair.jpg"}
+                              src={
+                                process.env.PUBLIC_URL +
+                                "/Images/Services_Img/repair.webp"
+                              }
+                              webp={
+                                process.env.PUBLIC_URL +
+                                "/Images/Services_Img/repair.jpg"
+                              }
                               alt="Jewelry Repair"
                               width="100%"
                               height="auto"
@@ -95,8 +107,14 @@ export const Services = () => (
                         <Row xs={1} md={2}>
                           <Col>
                             <Image
-                              src={"./Services_Img/repair.webp"}
-                              webp={"./Services_Img/repair.jpg"}
+                              src={
+                                process.env.PUBLIC_URL +
+                                "/Images/Services_Img/repair.webp"
+                              }
+                              webp={
+                                process.env.PUBLIC_URL +
+                                "/Images/Services_Img/repair.jpg"
+                              }
                               alt="Jewelry Repair"
                               width="100%"
                               height="auto"
@@ -121,8 +139,14 @@ export const Services = () => (
                   <Row xs={1} md={2}>
                     <Col>
                       <Image
-                        src={"./Services_Img/maintenance.webp"}
-                        webp={"./Services_Img/maintenance.jpg"}
+                        src={
+                          process.env.PUBLIC_URL +
+                          "/Images/Services_Img/maintenance.webp"
+                        }
+                        webp={
+                          process.env.PUBLIC_URL +
+                          "/Images/Services_Img/maintenance.jpg"
+                        }
                         alt="Jewelry Maintenance"
                         width="100%"
                         height="auto"
@@ -144,8 +168,14 @@ export const Services = () => (
                   <Row xs={1} md={2}>
                     <Col>
                       <Image
-                        src={"./Services_Img/making.webp"}
-                        webp={"./Services_Img/making.jpg"}
+                        src={
+                          process.env.PUBLIC_URL +
+                          "/Images/Services_Img/making.webp"
+                        }
+                        webp={
+                          process.env.PUBLIC_URL +
+                          "/Images/Services_Img/making.jpg"
+                        }
                         alt="Jewelry Making"
                         width="100%"
                         height="auto"

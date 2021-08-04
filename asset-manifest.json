@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/css/main.a99bf1fa.chunk.css",
-    "main.js": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/main.b2c4d7ce.chunk.js",
-    "main.js.map": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/main.b2c4d7ce.chunk.js.map",
+    "main.js": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/main.504fec84.chunk.js",
+    "main.js.map": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/main.504fec84.chunk.js.map",
     "runtime-main.js": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/runtime-main.b747780a.js",
     "runtime-main.js.map": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/runtime-main.b747780a.js.map",
     "static/js/2.0c719870.chunk.js": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/2.0c719870.chunk.js",
@@ -12,17 +12,12 @@
     "index.html": "/007_marin-mar_jewelry.github.io_react_bootstrap/index.html",
     "static/css/main.a99bf1fa.chunk.css.map": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/css/main.a99bf1fa.chunk.css.map",
     "static/js/2.0c719870.chunk.js.LICENSE.txt": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/2.0c719870.chunk.js.LICENSE.txt",
-    "static/media/Slider_Img_001.7e29dcf3.jpg": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/media/Slider_Img_001.7e29dcf3.jpg",
-    "static/media/Slider_Img_002.0d9d56bf.jpg": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/media/Slider_Img_002.0d9d56bf.jpg",
-    "static/media/Slider_Img_003.9fe1c83a.jpg": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/media/Slider_Img_003.9fe1c83a.jpg",
-    "static/media/User_Img_Cart.b9aa3131.svg": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/media/User_Img_Cart.b9aa3131.svg",
-    "static/media/User_Img_User.b8a17fd2.svg": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/media/User_Img_User.b8a17fd2.svg",
     "static/media/logo.d7c247cb.svg": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/media/logo.d7c247cb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b747780a.js",
     "static/js/2.0c719870.chunk.js",
     "static/css/main.a99bf1fa.chunk.css",
-    "static/js/main.b2c4d7ce.chunk.js"
+    "static/js/main.504fec84.chunk.js"
   ]
 }

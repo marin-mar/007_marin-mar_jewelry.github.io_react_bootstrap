@@ -1,0 +1,157 @@
+$primary: #ff9933 !default;
+$secondary: #adb5bd;
+$carousel-caption-color: #f8f5f5;
+$accordion-button-active-bg: $primary;
+$accordion-button-active-color: black;
+
+.carousel-caption {
+  top: 8rem;
+  @media (max-width: 768px) {
+    top: 14rem;
+  }
+  @media (max-width: 320px) {
+    top: 4rem;
+  }
+}
+
+.carousel-caption > h3,
+.carousel-caption > p {
+  font-weight: 900;
+  @media (max-width: 320px) {
+    font-weight: 700;
+  }
+}
+
+.nav-fill {
+  flex: 1 1 auto;
+}
+
+.search-form {
+  width: 20rem;
+}
+
+.cards__list {
+  list-style: none;
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  @media (max-width: 320px) {
+    padding: 0;
+  }
+}
+
+.cards__item {
+  margin: 1rem 0.5rem 2rem;
+}
+
+.modal-open,
+.modal-open > nav.fixed-top {
+  width: 100vw;
+  padding-right: 0;
+}
+
+.custom-title,
+.custom-subtitle,
+.card-title,
+.card-text {
+  text-align: center;
+  font-weight: 600;
+}
+
+.custom-title {
+  padding-top: 5rem;
+}
+
+.custom-subtitle {
+  padding: 1.5rem 0.5rem 0;
+  &::after {
+    content: "";
+    width: 10rem;
+    height: 0.3rem;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background-color: $primary;
+  }
+}
+.custom-title,
+.custom-subtitle {
+  @media (max-width: 320px) {
+    margin-top: 21rem;
+  }
+}
+
+.card-body > .btn-outline-primary {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn-more {
+  width: 20rem;
+  margin: 0 2rem;
+  @media (max-width: 320px) {
+    width: 80%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.btn {
+  color: #ff9933b6;
+}
+
+.navbar-toggler {
+  @media (max-width: 768px) {
+    order: 1;
+  }
+}
+
+.user.navbar-nav {
+  @media (max-width: 768px) {
+    flex-direction: row;
+  }
+  @media (max-width: 320px) {
+    width: 80%;
+  }
+}
+
+.navbar-collapse.show,
+.nav-fill.navbar-nav {
+  @media (max-width: 768px) {
+    order: 1;
+    flex-direction: row;
+  }
+  @media (max-width: 320px) {
+    order: 1;
+    flex-direction: column;
+  }
+}
+
+.carousel {
+  @media (max-width: 320px) {
+    margin-top: 8rem;
+  }
+}
+
+.main-container {
+  margin-bottom: 5rem;
+  @media (max-width: 320px) {
+    margin-top: -15rem;
+    margin-bottom: 10rem;
+  }
+}
+
+.cards__btns {
+  margin: 2rem auto;
+  @media (max-width: 320px) {
+    flex-direction: column;
+    margin: -1rem auto;
+  }
+}
+
+.text {
+  padding: 1rem;
+}
+
+@import "~bootstrap/scss/bootstrap.scss";

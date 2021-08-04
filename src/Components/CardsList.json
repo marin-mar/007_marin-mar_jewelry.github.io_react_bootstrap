@@ -1,0 +1,114 @@
+[
+  {
+    "id": "001",
+    "src": "Cards_Img_001.jpg",
+    "srcWebp": "Cards_Img_001.webp",
+    "title": "Gold ring",
+    "price": "$100"
+  },
+  {
+    "id": "002",
+    "src": "Cards_Img_002.jpg",
+    "srcWebp": "Cards_Img_002.webp",
+    "title": "Gold bracelet",
+    "price": "$80"
+  },
+  {
+    "id": "003",
+    "src": "Cards_Img_003.jpg",
+    "srcWebp": "Cards_Img_003.webp",
+    "title": "Custom-made ring",
+    "price": "$120"
+  },
+  {
+    "id": "004",
+    "src": "Cards_Img_004.jpg",
+    "srcWebp": "Cards_Img_004.webp",
+    "title": "Silver ring",
+    "price": "$60"
+  },
+  {
+    "id": "005",
+    "src": "Cards_Img_005.jpg",
+    "srcWebp": "Cards_Img_005.webp",
+    "title": "Gold set",
+    "price": "$200"
+  },
+  {
+    "id": "006",
+    "src": "Cards_Img_006.jpg",
+    "srcWebp": "Cards_Img_006.webp",
+    "title": "Custom-made set",
+    "price": "$250"
+  },
+  {
+    "id": "007",
+    "src": "Cards_Img_007.jpg",
+    "srcWebp": "Cards_Img_007.webp",
+    "title": "Gold pendant",
+    "price": "$100"
+  },
+  {
+    "id": "008",
+    "src": "Cards_Img_008.jpg",
+    "srcWebp": "Cards_Img_008.webp",
+    "title": "Gold set",
+    "price": "$150"
+  },
+  {
+    "id": "009",
+    "src": "Cards_Img_009.jpg",
+    "srcWebp": "Cards_Img_009.webp",
+    "title": "Custom-made gold set",
+    "price": "$200"
+  },
+  {
+    "id": "010",
+    "src": "Cards_Img_010.jpg",
+    "srcWebp": "Cards_Img_010.webp",
+    "title": "Gold ring",
+    "price": "$130"
+  },
+  {
+    "id": "011",
+    "src": "Cards_Img_011.jpg",
+    "srcWebp": "Cards_Img_011.webp",
+    "title": "Gold bracelet",
+    "price": "$110"
+  },
+  {
+    "id": "012",
+    "src": "Cards_Img_012.jpg",
+    "srcWebp": "Cards_Img_012.webp",
+    "title": "Custom-made set",
+    "price": "$170"
+  },
+  {
+    "id": "013",
+    "src": "Cards_Img_013.jpg",
+    "srcWebp": "Cards_Img_013.webp",
+    "title": "Gold pendant",
+    "price": "$90"
+  },
+  {
+    "id": "014",
+    "src": "Cards_Img_014.jpg",
+    "srcWebp": "Cards_Img_014.webp",
+    "title": "Custom-made ring",
+    "price": "$100"
+  },
+  {
+    "id": "015",
+    "src": "Cards_Img_015.jpg",
+    "srcWebp": "Cards_Img_015.webp",
+    "title": "Diamond ring",
+    "price": "$220"
+  },
+  {
+    "id": "016",
+    "src": "Cards_Img_016.jpg",
+    "srcWebp": "Cards_Img_016.webp",
+    "title": "Gold bracelet",
+    "price": "$120"
+  }
+]

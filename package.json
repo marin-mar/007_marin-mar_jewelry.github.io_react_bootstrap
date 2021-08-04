@@ -1,12 +1,14 @@
 {
   "name": "007_marin-mar_jewelry.github.io_react_bootstrap",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://marin-mar.github.io/jewelry",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.0.2",
+    "gh-pages": "^3.2.3",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-beta.4",
@@ -24,7 +26,9 @@
     "imgmin-pngquant": "imagemin src/Components/Slider_Img/* --plugin.pngquant.quality={0.8,0.9} --out-dir=public/Slider_Img",
     "imgmin-mozjpeg": "imagemin src/Components/Slider_Img/* --plugin.mozjpeg.quality=80 --out-dir=public/Slider_Img",
     "imgmin-webp": "imagemin src/Components/About_Img/* --plugin.webp.quality=80 --out-dir=public/About_Img",
-    "imgmin": "npm run imgmin-pngquant && npm run imgmin-mozjpeg && npm run imgmin-webp"
+    "imgmin": "npm run imgmin-pngquant && npm run imgmin-mozjpeg && npm run imgmin-webp",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

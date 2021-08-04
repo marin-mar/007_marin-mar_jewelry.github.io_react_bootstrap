@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/jewelry/static/css/main.a99bf1fa.chunk.css",
+    "main.js": "/jewelry/static/js/main.5b1e3c56.chunk.js",
+    "main.js.map": "/jewelry/static/js/main.5b1e3c56.chunk.js.map",
+    "runtime-main.js": "/jewelry/static/js/runtime-main.2572ee6e.js",
+    "runtime-main.js.map": "/jewelry/static/js/runtime-main.2572ee6e.js.map",
+    "static/js/2.e8a043e6.chunk.js": "/jewelry/static/js/2.e8a043e6.chunk.js",
+    "static/js/2.e8a043e6.chunk.js.map": "/jewelry/static/js/2.e8a043e6.chunk.js.map",
+    "static/js/3.1854f7de.chunk.js": "/jewelry/static/js/3.1854f7de.chunk.js",
+    "static/js/3.1854f7de.chunk.js.map": "/jewelry/static/js/3.1854f7de.chunk.js.map",
+    "index.html": "/jewelry/index.html",
+    "static/css/main.a99bf1fa.chunk.css.map": "/jewelry/static/css/main.a99bf1fa.chunk.css.map",
+    "static/js/2.e8a043e6.chunk.js.LICENSE.txt": "/jewelry/static/js/2.e8a043e6.chunk.js.LICENSE.txt",
+    "static/media/Slider_Img_001.7e29dcf3.jpg": "/jewelry/static/media/Slider_Img_001.7e29dcf3.jpg",
+    "static/media/Slider_Img_002.0d9d56bf.jpg": "/jewelry/static/media/Slider_Img_002.0d9d56bf.jpg",
+    "static/media/Slider_Img_003.9fe1c83a.jpg": "/jewelry/static/media/Slider_Img_003.9fe1c83a.jpg",
+    "static/media/User_Img_Cart.a5eaf29e.svg": "/jewelry/static/media/User_Img_Cart.a5eaf29e.svg",
+    "static/media/User_Img_User.0d88de68.svg": "/jewelry/static/media/User_Img_User.0d88de68.svg",
+    "static/media/logo.0f181077.svg": "/jewelry/static/media/logo.0f181077.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2572ee6e.js",
+    "static/js/2.e8a043e6.chunk.js",
+    "static/css/main.a99bf1fa.chunk.css",
+    "static/js/main.5b1e3c56.chunk.js"
+  ]
+}

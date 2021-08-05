@@ -7,7 +7,7 @@ export default function Slider() {
       <Carousel.Item style={{ height: "30rem" }}>
         <img
           className="d-block w-100 bottom"
-          src={process.env.PUBLIC_URL + "/Images/Slider_Img/Slider_Img_001.jpg"}
+          src={process.env.PUBLIC_URL + "/Images/Slider_Img_001.jpg"}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -18,7 +18,7 @@ export default function Slider() {
       <Carousel.Item style={{ height: "30rem" }}>
         <img
           className="d-block w-100 bottom"
-          src={process.env.PUBLIC_URL + "/Images/Slider_Img/Slider_Img_002.jpg"}
+          src={process.env.PUBLIC_URL + "/Images/Slider_Img_002.jpg"}
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -29,7 +29,7 @@ export default function Slider() {
       <Carousel.Item style={{ height: "30rem" }}>
         <img
           className="d-block w-100 bottom"
-          src={process.env.PUBLIC_URL + "/Images/Slider_Img/Slider_Img_003.jpg"}
+          src={process.env.PUBLIC_URL + "/Images/Slider_Img_003.jpg"}
           alt="Third slide"
         />
         <Carousel.Caption>

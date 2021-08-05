@@ -4,30 +4,23 @@ $carousel-caption-color: #f8f5f5;
 $accordion-button-active-bg: $primary;
 $accordion-button-active-color: black;
 
-.carousel-caption {
-  top: 8rem;
-  @media (max-width: 768px) {
-    top: 14rem;
-  }
-  @media (max-width: 320px) {
-    top: 4rem;
+@media (max-width: 768px) {
+  .navbar-toggler.collapsed {
+    margin-right: 0;
+    margin-left: 90%;
   }
 }
 
-.carousel-caption > h3,
-.carousel-caption > p {
-  font-weight: 900;
-  @media (max-width: 320px) {
-    font-weight: 700;
+@media (max-width: 768px) {
+  .carousel {
+    margin-top: 5rem;
   }
-}
-
-.nav-fill {
-  flex: 1 1 auto;
-}
-
-.search-form {
-  width: 20rem;
+  .carousel-inner {
+    height: 15rem;
+  }
+  .carousel-caption {
+    bottom: 15rem !important;
+  }
 }
 
 .cards__list {
@@ -61,7 +54,7 @@ $accordion-button-active-color: black;
 }
 
 .custom-title {
-  padding-top: 5rem;
+  padding-top: 10rem;
 }
 
 .custom-subtitle {
@@ -79,7 +72,7 @@ $accordion-button-active-color: black;
 .custom-title,
 .custom-subtitle {
   @media (max-width: 320px) {
-    margin-top: 21rem;
+    margin-top: 12rem;
   }
 }
 
@@ -99,39 +92,6 @@ $accordion-button-active-color: black;
 
 .btn {
   color: #ff9933b6;
-}
-
-.navbar-toggler {
-  @media (max-width: 768px) {
-    order: 1;
-  }
-}
-
-.user.navbar-nav {
-  @media (max-width: 768px) {
-    flex-direction: row;
-  }
-  @media (max-width: 320px) {
-    width: 80%;
-  }
-}
-
-.navbar-collapse.show,
-.nav-fill.navbar-nav {
-  @media (max-width: 768px) {
-    order: 1;
-    flex-direction: row;
-  }
-  @media (max-width: 320px) {
-    order: 1;
-    flex-direction: column;
-  }
-}
-
-.carousel {
-  @media (max-width: 320px) {
-    margin-top: 8rem;
-  }
 }
 
 .main-container {

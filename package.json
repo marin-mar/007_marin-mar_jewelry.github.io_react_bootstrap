@@ -23,11 +23,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "imgmin-pngquant": "imagemin src/Components/Slider_Img/* --plugin.pngquant.quality={0.8,0.9} --out-dir=public/Slider_Img",
-    "imgmin-mozjpeg": "imagemin src/Components/Slider_Img/* --plugin.mozjpeg.quality=80 --out-dir=public/Slider_Img",
-    "imgmin-webp": "imagemin src/Components/About_Img/* --plugin.webp.quality=80 --out-dir=public/About_Img",
-    "imgmin": "npm run imgmin-pngquant && npm run imgmin-mozjpeg && npm run imgmin-webp",
-    "predeploy": "npm run build",
+    "imgmin-pngquant": "imagemin src/Images/**/*./png --plugin.pngquant.quality=0.6 --out-dir=public/Images/",
+    "imgmin-mozjpeg": "imagemin src/Images/**/*.jpg --plugin.mozjpeg.quality=60 --out-dir=public/Images/",
+    "imgmin-webp": "imagemin src/Images/**/*.jpg --plugin.webp.quality=60 --out-dir=public/Images/",
+    "imgmin": "npm run imgmin-mozjpeg && npm run imgmin-webp && cp -r src/Images/**/*.svg public/Images/",
+    "delImg": "rm -rf public/Images",
+    "predeploy": "npm run delImg && npm run imgmin && npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

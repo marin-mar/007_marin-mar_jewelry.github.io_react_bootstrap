@@ -4,7 +4,8 @@ import "./Custom.scss";
 // import { Container } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import { Link } from "react-router-dom";
-import NaviBar from "./Components/NaviBar";
+// import NaviBar from "./Components/NaviBar";
+import PageHeader from "./Components/PageHeader";
 import PageFooter from "./Components/PageFooter";
 import { Home } from "./Pages/Home";
 import { Services } from "./Pages/Services";
@@ -15,7 +16,8 @@ function App() {
     <>
       <h1 className="visually-hidden">Jewelry</h1>
       <Router>
-        <NaviBar />
+        {/* <NaviBar /> */}
+        <PageHeader />
         <Switch>
           <Route path="/services">
             <Services />

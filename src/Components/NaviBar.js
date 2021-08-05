@@ -81,10 +81,7 @@ export default function NaviBar() {
                 onClick={() => setToggleUserModal(!toggleUserModal)}>
                 <img
                   alt="User Account"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/Images/User_Img/User_Img_User.svg"
-                  }
+                  src={process.env.PUBLIC_URL + "/Images/User_Img_User.svg"}
                   width="30"
                   height="30"
                   className="d-inline-block align-top"
@@ -96,10 +93,7 @@ export default function NaviBar() {
                 onClick={() => setToggleCartModal(!toggleCartModal)}>
                 <img
                   alt="User Cart"
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/Images/User_Img/User_Img_Cart.svg"
-                  }
+                  src={process.env.PUBLIC_URL + "/Images/User_Img_Cart.svg"}
                   width="30"
                   height="30"
                   className="d-inline-block align-top"

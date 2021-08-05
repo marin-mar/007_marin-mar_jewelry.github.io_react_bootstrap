@@ -28,13 +28,13 @@ export default function Cards() {
         <Card variant="dark" key={card.id} style={{ width: "15rem" }}>
           {isWebpSupported() ? (
             <Card.Img
-              src={process.env.PUBLIC_URL + `/Images/Cards_Img/${card.srcWebp}`}
+              src={process.env.PUBLIC_URL + `/Images/${card.srcWebp}`}
               alt="{card.title}"
               variant="top"
             />
           ) : (
             <Card.Img
-              src={process.env.PUBLIC_URL + `/Images/Cards_Img/${card.src}`}
+              src={process.env.PUBLIC_URL + `/Images/${card.src}`}
               alt="{card.title}"
               variant="top"
             />

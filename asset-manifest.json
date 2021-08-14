@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/css/main.c86d64eb.chunk.css",
-    "main.js": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/main.ca478013.chunk.js",
-    "main.js.map": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/main.ca478013.chunk.js.map",
+    "main.js": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/main.f89a3246.chunk.js",
+    "main.js.map": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/main.f89a3246.chunk.js.map",
     "runtime-main.js": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/runtime-main.b747780a.js",
     "runtime-main.js.map": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/runtime-main.b747780a.js.map",
-    "static/js/2.27b4ebd3.chunk.js": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/2.27b4ebd3.chunk.js",
-    "static/js/2.27b4ebd3.chunk.js.map": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/2.27b4ebd3.chunk.js.map",
+    "static/js/2.77ac5505.chunk.js": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/2.77ac5505.chunk.js",
+    "static/js/2.77ac5505.chunk.js.map": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/2.77ac5505.chunk.js.map",
     "static/js/3.1854f7de.chunk.js": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/3.1854f7de.chunk.js",
     "static/js/3.1854f7de.chunk.js.map": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/3.1854f7de.chunk.js.map",
     "index.html": "/007_marin-mar_jewelry.github.io_react_bootstrap/index.html",
     "static/css/main.c86d64eb.chunk.css.map": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/css/main.c86d64eb.chunk.css.map",
-    "static/js/2.27b4ebd3.chunk.js.LICENSE.txt": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/2.27b4ebd3.chunk.js.LICENSE.txt",
+    "static/js/2.77ac5505.chunk.js.LICENSE.txt": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/2.77ac5505.chunk.js.LICENSE.txt",
     "static/media/logo.d7c247cb.svg": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/media/logo.d7c247cb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b747780a.js",
-    "static/js/2.27b4ebd3.chunk.js",
+    "static/js/2.77ac5505.chunk.js",
     "static/css/main.c86d64eb.chunk.css",
-    "static/js/main.ca478013.chunk.js"
+    "static/js/main.f89a3246.chunk.js"
   ]
 }

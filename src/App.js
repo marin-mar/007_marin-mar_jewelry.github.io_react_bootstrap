@@ -1,10 +1,6 @@
 import React from "react";
-// import "bootstrap/dist/css/bootstrap.min.css";
 import "./Custom.scss";
-// import { Container } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import { Link } from "react-router-dom";
-// import NaviBar from "./Components/NaviBar";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import PageHeader from "./Components/PageHeader";
 import PageFooter from "./Components/PageFooter";
 import { Home } from "./Pages/Home";
@@ -15,22 +11,15 @@ function App() {
   return (
     <>
       <h1 className="visually-hidden">Jewelry</h1>
-      <Router>
-        {/* <NaviBar /> */}
+      <BrowserRouter>
         <PageHeader />
         <Switch>
-          <Route path="/services">
-            <Services />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route exact path="/">
-            <Home />
-          </Route>
+          <Route path={"/"} exact component={Home} />
+          <Route path={"/about"} component={About} />
+          <Route path={"/services"} component={Services} />
         </Switch>
         <PageFooter />
-      </Router>
+      </BrowserRouter>
     </>
   );
 }

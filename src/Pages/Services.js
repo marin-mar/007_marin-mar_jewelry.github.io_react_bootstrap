@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import {
   Container,
   Tab,
@@ -8,13 +8,10 @@ import {
   Accordion,
 } from "react-bootstrap";
 import Image from "react-image-webp";
-import styled from "styled-components";
 
-const Styles = styled.div``;
-
-export const Services = () => (
-  <>
-    <Styles>
+export const Services = () => {
+  return (
+    <Fragment>
       <Container className="main-container">
         <h2 className="custom-title">Our Services</h2>
         <Tab.Container id="list-group-tabs-example" defaultActiveKey="#repair">
@@ -185,6 +182,6 @@ export const Services = () => (
           </Row>
         </Tab.Container>
       </Container>
-    </Styles>
-  </>
-);
+    </Fragment>
+  );
+};

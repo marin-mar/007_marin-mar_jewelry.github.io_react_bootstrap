@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import {
   Navbar,
   Container,
@@ -34,7 +34,7 @@ export default function NaviBar() {
   const [toggleCartModal, setToggleCartModal] = useState(false);
 
   return (
-    <>
+    <Fragment>
       <Styles>
         <Navbar
           fixed="top"
@@ -124,102 +124,6 @@ export default function NaviBar() {
           </Container>
         </Navbar>
       </Styles>
-      {/* <Navbar
-          fixed="top"
-          collapseOnSelect
-          expand="lg"
-          bg="dark"
-          variant="dark"
-          className="d-flex justify-content-between px-2">
-          <Container fluid>
-            <Row className="w-100">
-              <Col lg={1} md={2}>
-                <Navbar.Brand className="d-block p-2" href="#home">
-                  <img
-                    alt="Jewelry-Logo"
-                    src={logo}
-                    width="30"
-                    height="30"
-                    className="d-inline-block align-top"
-                  />
-                  <Link to="/">Jewelry</Link>
-                </Navbar.Brand>
-              </Col>
-              <Col lg={11} md={10} className="d-flex">
-                <Col lg={5} md={8}>
-                  <Form className="search-form d-flex justify-content-between p-2">
-                    <FormControl
-                      type="search"
-                      placeholder="Search"
-                      className="mx-1"
-                      aria-label="Search"
-                    />
-                    <Button className="mx-1" variant="primary">
-                      Search
-                    </Button>
-                  </Form>
-                </Col>
-                <Col lg={2} md={3}>
-                  <Nav className="user nav-justified p-1 d-flex flex-row">
-                    <Nav.Link
-                      className="lg-mx-4 md-mx-2"
-                      href="#user"
-                      onClick={() => setToggleUserModal(!toggleUserModal)}>
-                      <img
-                        alt="User Account"
-                        src={
-                          process.env.PUBLIC_URL + "/Images/User_Img_User.svg"
-                        }
-                        width="30"
-                        height="30"
-                        className="d-inline-block align-top"
-                      />
-                    </Nav.Link>
-                    <Nav.Link
-                      className="lg-mx-4 md-mx-2"
-                      href="#cart"
-                      onClick={() => setToggleCartModal(!toggleCartModal)}>
-                      <img
-                        alt="User Cart"
-                        src={
-                          process.env.PUBLIC_URL + "/Images/User_Img_Cart.svg"
-                        }
-                        width="30"
-                        height="30"
-                        className="d-inline-block align-top"
-                      />
-                    </Nav.Link>
-                  </Nav>
-                </Col>
-                <Col lg={{ order: "first" }} className="md-my-2">
-                  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                  <Navbar.Collapse
-                    id="responsive-navbar-nav"
-                    className="w-100 menu">
-                    <Nav className="menu nav-fill w-100 md-w-200 md-ml--150 d-flex justify-content-around flex-md-row">
-                      <Nav.Link
-                        className="menu__item lg-mx-2 md-mx-5"
-                        href="#home">
-                        <Link to="/">Home</Link>
-                      </Nav.Link>
-                      <Nav.Link
-                        className="menu__item lg-mx-2 md-mx-5"
-                        href="#services">
-                        <Link to="/Services">Services</Link>
-                      </Nav.Link>
-                      <Nav.Link
-                        className="menu__item lg-mx-2 md-mx-5"
-                        href="#about">
-                        <Link to="/About">About</Link>
-                      </Nav.Link>
-                    </Nav>
-                  </Navbar.Collapse>
-                </Col>
-              </Col>
-            </Row>
-          </Container>
-        </Navbar>
-      </Styles> */}
 
       <Modal
         id="user"
@@ -273,6 +177,6 @@ export default function NaviBar() {
           </Button>
         </Modal.Footer>
       </Modal>
-    </>
+    </Fragment>
   );
 }

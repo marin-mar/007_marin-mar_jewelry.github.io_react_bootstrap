@@ -1,13 +1,10 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Container, Tab, Row, Col, ListGroup } from "react-bootstrap";
 import Image from "react-image-webp";
-import styled from "styled-components";
 
-const Styles = styled.div``;
-
-export const About = () => (
-  <>
-    <Styles>
+export const About = () => {
+  return (
+    <Fragment>
       <Container className="main-container">
         <h2 className="custom-title">About Us</h2>
         <Tab.Container id="list-group-tabs-example" defaultActiveKey="#history">
@@ -69,6 +66,6 @@ export const About = () => (
           </Row>
         </Tab.Container>
       </Container>
-    </Styles>
-  </>
-);
+    </Fragment>
+  );
+};

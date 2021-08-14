@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Container, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
@@ -20,7 +20,7 @@ const Styles = styled.div`
 
 export default function PageFooter() {
   return (
-    <>
+    <Fragment>
       <Styles>
         <Navbar
           fixed="bottom"
@@ -34,6 +34,6 @@ export default function PageFooter() {
           </Container>
         </Navbar>
       </Styles>
-    </>
+    </Fragment>
   );
 }

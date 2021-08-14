@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import { Card, Button } from "react-bootstrap";
 import { isWebpSupported } from "react-image-webp/dist/utils";
 import cardsList from "../Components/CardsList.json";
@@ -52,7 +52,7 @@ export default function Cards() {
   });
 
   return (
-    <>
+    <Fragment>
       <ul className="cards__list">{cardComponent}</ul>
       <div className="cards__btns d-flex justify-content-center">
         <Button
@@ -70,6 +70,6 @@ export default function Cards() {
           See All
         </Button>
       </div>
-    </>
+    </Fragment>
   );
 }

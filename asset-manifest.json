@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/css/main.c86d64eb.chunk.css",
-    "main.js": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/main.dd064605.chunk.js",
-    "main.js.map": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/main.dd064605.chunk.js.map",
+    "main.js": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/main.ca478013.chunk.js",
+    "main.js.map": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/main.ca478013.chunk.js.map",
     "runtime-main.js": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/runtime-main.b747780a.js",
     "runtime-main.js.map": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/runtime-main.b747780a.js.map",
     "static/js/2.27b4ebd3.chunk.js": "/007_marin-mar_jewelry.github.io_react_bootstrap/static/js/2.27b4ebd3.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b747780a.js",
     "static/js/2.27b4ebd3.chunk.js",
     "static/css/main.c86d64eb.chunk.css",
-    "static/js/main.dd064605.chunk.js"
+    "static/js/main.ca478013.chunk.js"
   ]
 }

@@ -3,7 +3,7 @@ import { Card, Button } from "react-bootstrap";
 import { isWebpSupported } from "react-image-webp/dist/utils";
 import cardsList from "../Components/CardsList.json";
 
-export default function Cards() {
+export const Cards = () => {
   const [maxRange, setMaxRange] = useState(4);
   const [disabledBtn, setdisabledBtn] = useState(false);
 
@@ -72,4 +72,4 @@ export default function Cards() {
       </div>
     </Fragment>
   );
-}
+};

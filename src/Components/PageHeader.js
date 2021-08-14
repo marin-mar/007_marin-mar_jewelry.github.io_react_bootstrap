@@ -29,7 +29,7 @@ const Styles = styled.div`
   }
 `;
 
-export default function NaviBar() {
+export const PageHeader = () => {
   const [toggleUserModal, setToggleUserModal] = useState(false);
   const [toggleCartModal, setToggleCartModal] = useState(false);
 
@@ -179,4 +179,4 @@ export default function NaviBar() {
       </Modal>
     </Fragment>
   );
-}
+};

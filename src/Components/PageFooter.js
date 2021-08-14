@@ -18,7 +18,7 @@ const Styles = styled.div`
   }
 `;
 
-export default function PageFooter() {
+export const PageFooter = () => {
   return (
     <Fragment>
       <Styles>
@@ -36,4 +36,4 @@ export default function PageFooter() {
       </Styles>
     </Fragment>
   );
-}
+};

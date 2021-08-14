@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import Slider from "../Components/Slider";
-import Cards from "../Components/Cards";
+import { Slider } from "../Components/Slider";
+import { Cards } from "../Components/Cards";
 import { Container } from "react-bootstrap";
 
 export const Home = () => {

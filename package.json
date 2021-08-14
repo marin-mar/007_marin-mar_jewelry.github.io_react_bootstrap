@@ -28,7 +28,7 @@
     "imgmin-webp": "imagemin src/Images/**/*.jpg --plugin.webp.quality=60 --out-dir=public/Images/",
     "imgmin": "npm run imgmin-mozjpeg && npm run imgmin-webp && cp -r src/Images/**/*.svg public/Images/",
     "delImg": "rm -rf public/Images",
-    "predeploy": "npm run delImg && npm run imgmin && npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

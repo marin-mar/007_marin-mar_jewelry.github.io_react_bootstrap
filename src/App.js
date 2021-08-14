@@ -1,8 +1,7 @@
 import React from "react";
-import "./Custom.scss";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import PageHeader from "./Components/PageHeader";
-import PageFooter from "./Components/PageFooter";
+import { PageHeader } from "./Components/PageHeader";
+import { PageFooter } from "./Components/PageFooter";
 import { Home } from "./Pages/Home";
 import { Services } from "./Pages/Services";
 import { About } from "./Pages/About";

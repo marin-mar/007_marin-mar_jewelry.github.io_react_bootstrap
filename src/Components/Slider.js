@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 
-export default function Slider() {
+export const Slider = () => {
   return (
     <Carousel>
       <Carousel.Item style={{ height: "30rem" }}>
@@ -39,4 +39,4 @@ export default function Slider() {
       </Carousel.Item>
     </Carousel>
   );
-}
+};

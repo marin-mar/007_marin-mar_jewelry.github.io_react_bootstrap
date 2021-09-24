@@ -8,6 +8,8 @@
 - Продукты (Our Collection) загружаются их json-файла по 4 карточки по нажатию на кнопку (See more), либо загружаются полностью (See all).<br>
 - Изображения грузятся в зависимости от поддерживаемого формата - jpg или webp<br>
 - Написан постраничный роутинг, но на GitHub этого не видно сразу, нужно сначала нажать на Home, чтобы отобразилась первая страница, локально грузит как задумывалось.<br>
+- Сайт размещен:<br>
+<a href="https://marin-mar.github.io/jewelry" rel="noreferrer" target="blank" >https://marin-mar.github.io/jewelry/</a><br>
 </h3>
 ================================
 <h3>Explanation of the project:</h3> 
@@ -20,4 +22,6 @@
 - Products (Our Collection) are loaded from the json-file by 4 cards by clicking the button (See more), or are loaded completely (See all).<br>
 - Images are loaded depending on the supported format - jpg or webp<br>
 - Page-by-page routing is written, but this is not immediately visible on GitHub, you first need to click on Home to display the first page, locally loads as intended.<br>
+- Site is published at:<br>
+<a href="https://marin-mar.github.io/jewelry/" rel="noreferrer" target="blank" >https://marin-mar.github.io/jewelry/</a><br>
 </h3>
